@@ -1,0 +1,106 @@
+html{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+p {
+    font-size: 0.8em;
+    margin-right: 2.5em;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin-block-end: 0.7em;
+}
+body{
+    overflow-y: scroll;
+}
+button{
+    
+    background-color: white;
+    border-radius: 30px;
+    padding: 8px 1.5em;
+    height: 2.7em;
+    border: 2px solid black;
+    font-size: 0.82em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+
+}
+#contact{
+    margin: 0px;
+    font-size: 0.86em;
+    line-height: 1.2;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 26%;
+    left: 31%;
+    margin: -28px 0 0 -17px;
+}
+button:hover{
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-color: #000000
+}
+a{
+    color: #000000;
+    text-decoration:none;
+}
+
+@media (width >= 2500px){
+    html{font-size: 28px;
+    }
+    
+}
+div#navbar-left img{
+    width: 8.7em;
+}
+div#navbar-right img{
+    width: 0.8em;
+    margin-left: 2em;
+}
+h1{
+    margin: 23px 0px 0 -7px;
+}
+#contanos{
+    background-color: white;
+    border-radius: 30px;
+    padding: 8px 1.5em;
+    height: 2.7em;
+    border: 2px solid black;
+    font-size: 0.82em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 30px -7px 0 40px;
+    font-size: 1em;
+}
+#contanos:hover{
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 8px 1.5em;
+    height: 2.7em;
+    border: 2px solid black;
+    font-size: 0.82em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin: 30px -7px 0 40px;
+    font-size: 1em;
+}
+#sumatecontact{
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 8px 1.5em;
+    height: 2.7em;
+    border: 2px solid #6b53f0;
+    font-size: 0.82em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin: 30px 75px 0 30px;
+    font-size: 1em;
+    cursor: pointer;
+    color: #6b53f0;
+}
+#sumatecontact:hover{
+    color: #ffffff;
+    background-color: #6b53f0;
+    border-color: #6b53f0
+}
+
